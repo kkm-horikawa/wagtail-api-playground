@@ -1,0 +1,11 @@
+[project]
+name = "wagtail-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django-cors-headers>=4.9.0",
+    "wagtail>=7.2.1",
+    "wagtail-grapple>=0.29.0",
+]
